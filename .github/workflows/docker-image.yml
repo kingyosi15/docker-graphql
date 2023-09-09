@@ -49,5 +49,5 @@ jobs:
         docker push dofusyosi/docker-graphql:$NEW_VERSION.hub
         docker push dofusyosi/docker-graphql:latest
     
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    # - name: Build the Docker image
+    #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
